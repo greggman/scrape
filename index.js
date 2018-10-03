@@ -67,7 +67,6 @@ async function main(args) {
     const body = await res.text();
     const urls = {};
     const dom = new JSDOM(body);
-    const base = args._[0];
     [...dom.window.document.querySelectorAll("a")]
     .filter(a => isMediaUrl(a.href))
     .forEach((a) => {
