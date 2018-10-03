@@ -5,7 +5,7 @@ A node script to scrape media off a webpage
 ## Usage
 
     git clone https://github.com/greggman/scrape.git
-    cd script
+    cd scrape
     npm install
     node index.js --dest-dir=path/to/save https://someurl.com/somepath/somepath.html
 
